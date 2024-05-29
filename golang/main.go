@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"os"
 	"time"
+
+	_ "time/tzdata"
 )
 
 var buildTime string
